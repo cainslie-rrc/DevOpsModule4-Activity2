@@ -53,4 +53,7 @@ app.post('/', (req, res) => {
         </html>
     `);
 });
- 
+
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+});
